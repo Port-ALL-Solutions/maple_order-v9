@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_commbaril_commbaril,commbaril.commbaril,modele_commbaril_commande,group_manager,1,1,1,1
+access_commbaril_commbaril,commbaril.commbaril,modele_commbaril_article,group_manager,1,1,1,1

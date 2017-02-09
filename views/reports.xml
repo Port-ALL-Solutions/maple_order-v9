@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+<data>
+    <report
+        id="report_orders"
+        model="mapleorder.order"
+        string="Order Report"
+        name="mapleorder.report_order_view"
+        file="mapleorder.report_order"
+        report_type="qweb-pdf" />
+
+    <template id="report_order_view">
+        <t t-call="report.html_container">
+          <t t-call="report.external_layout">
+            <div class="page">
+
+              <table>
+                <tr>
+                  <th>Région</th>
+                  <th>&amp;nbsp;</th>
+                  <th>Quantité</th>
+                  <th>&amp;nbsp;</th>
+                  <th>Client</th>
+                  <th>&amp;nbsp;</th>
+                  <th>Adresse</th>
+                  <th>&amp;nbsp;</th>
+                  <th>Ville</th>
+                  <th>&amp;nbsp;</th>
+                  <th>Téléphone</th>
+                  <th>&amp;nbsp;</th>
+                  <th>Date planifiée</th>
+                  <th>&amp;nbsp;</th>
+                  <th>Date modifiée</th>
+                  <th>&amp;nbsp;</th>
+                  <th>Transporteur</th>
+                </tr>
+
+                <t t-foreach="docs" t-as="doc">
+                  <tr>
+                    <td>
+                      <span t-field="doc.region"/>
+                    </td>
+                    <td>&amp;nbsp;</td>
+                    <td>
+                      <span t-field="doc.quantity"/>
+                    </td>
+                    <td>&amp;nbsp;</td>
+                    <td>
+                      <span t-field="doc.productor"/>
+                    </td>
+                    <td>&amp;nbsp;</td>
+                    <td>
+                      <span t-field="doc.address"/>
+                    </td>
+                    <td>&amp;nbsp;</td>
+                    <td>
+                      <span t-field="doc.city"/>
+                    </td>
+                    <td>&amp;nbsp;</td>
+                    <td>
+                      <span t-field="doc.phone"/>
+                    </td>
+                    <td>&amp;nbsp;</td>
+                    <td>
+                      <span t-field="doc.pick_schedule"/>
+                    </td>
+                    <td>&amp;nbsp;</td>
+                    <td>
+                      <span t-field="doc.write_date"/>
+                    </td>
+                    <td>&amp;nbsp;</td>
+                    <td>
+                      <span t-field="doc.pick_driver"/>
+                    </td>
+                  </tr>
+                </t>
+              </table>
+            </div>
+          </t>
+        </t>
+    </template>
+  
+</data>
+</openerp>

@@ -1,0 +1,1304 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* maplereception
+#	* mapleorder
+#	* mapletransform
+#	* maplepick
+#	* maplerating
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 9.0c\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-02-08 03:10+0000\n"
+"PO-Revision-Date: 2017-02-08 03:10+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. modules: maplereception, mapleorder, maplerating
+#: model:ir.ui.view,arch_db:mapleorder.report_order_view
+#: model:ir.ui.view,arch_db:maplerating.report_barrel_view
+#: model:ir.ui.view,arch_db:maplereception.report_barrel_view
+msgid "&amp;nbsp;"
+msgstr "&amp;nbsp;"
+
+#. module: mapleorder
+#: selection:mapleorder.barrel,grade:0
+#: selection:mapleorder.transform,grades:0
+msgid "AM"
+msgstr "AM"
+
+#. module: mapleorder
+#: model:ir.module.category,name:mapleorder.module_management
+msgid "Accès aux modules gestion du sirop"
+msgstr "Accès aux modules gestion du sirop"
+
+#. modules: maplereception, maplerating
+#: model:ir.ui.view,arch_db:maplerating.report_barrel_view
+#: model:ir.ui.view,arch_db:maplereception.report_barrel_view
+msgid "Acheteur"
+msgstr "Acheteur"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_barrel_message_needaction
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_delivery_message_needaction
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_maplepick_message_needaction
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_order_message_needaction
+msgid "Action Needed"
+msgstr "A besoin d'une action"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_barrel_active
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_delivery_active
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_maplepick_active
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_order_active
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_transform_active
+msgid "Active"
+msgstr "Actif"
+
+#. modules: maplereception, mapleorder, maplerating
+#: model:ir.ui.view,arch_db:mapleorder.report_order_view
+#: model:ir.ui.view,arch_db:maplerating.report_barrel_view
+#: model:ir.ui.view,arch_db:maplereception.report_barrel_view
+msgid "Adresse"
+msgstr "Adresse"
+
+#. module: mapleorder
+#: selection:mapleorder.order,buyer:0
+msgid "Autre"
+msgstr "Autre"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_hr_employee_barrelCnt
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_barrel_inspectCnt
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_barrel_trans_inspectCnt
+msgid "Barrel Count"
+msgstr "Quantité de barils"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_hr_employee_barrelCntYear
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_barrel_inspectCntYear
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_barrel_trans_inspectCntYear
+msgid "Barrel Count Year"
+msgstr "Année pour compte de barils"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_order_barrellist
+msgid "Barrel List"
+msgstr "Liste de barils"
+
+#. module: mapleorder
+#: model:ir.actions.act_window,name:mapleorder.action_reception_order
+#: model:ir.ui.menu,name:mapleorder.menu_15
+msgid "Barrel Registering"
+msgstr "Enregistrement de barils"
+
+#. module: mapleorder
+#: model:ir.actions.act_window,name:mapleorder.report_barrel
+#: model:ir.actions.act_window,name:mapleorder.reportbarrelaction_window
+#: model:ir.ui.menu,name:mapleorder.ratingbarrel_1_list
+msgid "Barrel Report"
+msgstr "Rapport de baril"
+
+#. module: mapleorder
+#: model:ir.actions.act_window,name:mapleorder.action_barrellist1
+#: model:ir.ui.menu,name:mapleorder.menu_25
+msgid "Barrel Weight List"
+msgstr "Liste de pesée"
+
+#. module: mapletransform
+#: model:ir.model.fields,field_description:mapletransform.field_mapletransform_wizard_barrel_id
+msgid "Barrel id"
+msgstr "Id baril"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_delivery_barrelList
+msgid "Barrellist"
+msgstr "Liste de barils"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_barrel_barrelNumber
+msgid "Barrelnumber"
+msgstr "No de baril"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_order_barrelQtyRegistered
+msgid "Barrelqtyregistered"
+msgstr "Qté de barils enregistrés"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_barrel_barrelState
+msgid "Barrelstate"
+msgstr "État"
+
+#. modules: mapleorder, maplerating
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_barrel_brix
+#: model:ir.ui.view,arch_db:maplerating.report_barrel_view
+msgid "Brix"
+msgstr "Brix"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_transform_brixs
+msgid "Brixs"
+msgstr "Brix"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_barrel_buyer
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_order_buyer
+msgid "Buyer"
+msgstr "Acheteur"
+
+#. module: mapleorder
+#: model:ir.ui.menu,name:mapleorder.menu_262
+#: model:ir.ui.menu,name:mapleorder.ratingmenu_262
+msgid "By Producer"
+msgstr "Par producteur"
+
+#. module: mapleorder
+#: model:ir.ui.menu,name:mapleorder.menu_261
+#: model:ir.ui.menu,name:mapleorder.ratingmenu_261
+#: model:ir.ui.menu,name:mapleorder.transformmenu_261
+msgid "By Warehouse"
+msgstr "Par entrepôt"
+
+#. module: mapleorder
+#: selection:mapleorder.barrel,default:0
+msgid "CROCHET"
+msgstr "CROCHET"
+
+#. module: mapleorder
+#: model:ir.ui.view,arch_db:mapleorder.view_list2
+#: model:ir.ui.view,arch_db:mapleorder.view_list_test
+msgid "Calc"
+msgstr "Calc"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_order_city
+msgid "City"
+msgstr "Ville"
+
+#. module: maplerating
+#: model:ir.ui.view,arch_db:maplerating.report_barrel_view
+msgid "Class. par"
+msgstr "Class. par"
+
+#. module: mapleorder
+#: model:ir.ui.view,arch_db:mapleorder.report_order_view
+msgid "Client"
+msgstr "Client"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_maplepick_closed
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_order_closed
+msgid "Closed"
+msgstr "Fermé"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_maplepick_completed
+msgid "Completed"
+msgstr "Complété"
+
+#. module: mapleorder
+#: model:ir.ui.menu,name:mapleorder.mapleorder_producer_menu
+msgid "Contacts"
+msgstr "Contacts"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_barrel_containerState
+msgid "Containerstate"
+msgstr "État du baril"
+
+#. module: mapleorder
+#: model:ir.ui.menu,name:mapleorder.transform_menu_1_list
+msgid "Create Mix"
+msgstr "Créer le mélange"
+
+#. module: mapleorder
+#: model:ir.actions.act_window,name:mapleorder.transform_action_window
+msgid "Create Syrup Mix"
+msgstr "Mélange de sirop"
+
+#. modules: mapleorder, mapletransform
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_barrel_create_uid
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_delivery_create_uid
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_maplepick_create_uid
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_order_create_uid
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_transform_create_uid
+#: model:ir.model.fields,field_description:mapletransform.field_mapletransform_wizard_create_uid
+msgid "Created by"
+msgstr "Créé par"
+
+#. modules: mapleorder, mapletransform
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_barrel_create_date
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_delivery_create_date
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_maplepick_create_date
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_order_create_date
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_transform_create_date
+#: model:ir.model.fields,field_description:mapletransform.field_mapletransform_wizard_create_date
+msgid "Created on"
+msgstr "Créé le"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_order_customer
+msgid "Customer"
+msgstr "Client"
+
+#. module: mapleorder
+#: selection:mapleorder.barrel,grade:0
+#: selection:mapleorder.transform,grades:0
+msgid "DO"
+msgstr "DO"
+
+#. module: mapleorder
+#: model:ir.ui.view,arch_db:mapleorder.report_order_view
+msgid "Date modifiée"
+msgstr "Date modifiée"
+
+#. module: mapleorder
+#: model:ir.model.fields,help:mapleorder.field_mapleorder_barrel_message_last_post
+#: model:ir.model.fields,help:mapleorder.field_mapleorder_delivery_message_last_post
+#: model:ir.model.fields,help:mapleorder.field_mapleorder_maplepick_message_last_post
+#: model:ir.model.fields,help:mapleorder.field_mapleorder_order_message_last_post
+msgid "Date of the last message posted on the record."
+msgstr "Date du dernier message publié sur cet enregistrement"
+
+#. module: mapleorder
+#: model:ir.ui.view,arch_db:mapleorder.report_order_view
+msgid "Date planifiée"
+msgstr "Date planifiée"
+
+#. modules: maplereception, maplerating
+#: model:ir.ui.view,arch_db:maplerating.report_barrel_view
+#: model:ir.ui.view,arch_db:maplereception.report_barrel_view
+msgid "Date reçue"
+msgstr "Date reçue"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_barrel_default
+msgid "Default"
+msgstr "Défaut"
+
+#. module: maplerating
+#: model:ir.ui.view,arch_db:maplerating.report_barrel_view
+msgid "Defaut"
+msgstr "Defaut"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_barrel_delivery
+msgid "Delivery"
+msgstr "Livraison"
+
+#. module: mapleorder
+#: model:ir.actions.act_window,name:mapleorder.delivery_action_window
+#: model:ir.ui.menu,name:mapleorder.delivery_menu_1
+#: model:ir.ui.menu,name:mapleorder.delivery_menu_1_list
+msgid "Delivery Orders"
+msgstr "Bon de livraison"
+
+#. module: mapleorder
+#: model:ir.actions.act_window,name:mapleorder.delivery_report_window
+#: model:ir.ui.menu,name:mapleorder.delivery_menu_1_report
+#: model:ir.ui.view,arch_db:mapleorder.reportdeliveryview
+msgid "Delivery Report"
+msgstr "Rapport de livraison"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_delivery_destination
+msgid "Destination"
+msgstr "Destination"
+
+#. module: maplerating
+#: model:ir.actions.report.xml,name:maplerating.report_barrels
+msgid "Detailed Rated Barrel Report"
+msgstr "Rapport des barils classifiés"
+
+#. modules: mapleorder, mapletransform
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_barrel_display_name
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_delivery_display_name
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_maplepick_display_name
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_order_display_name
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_transform_display_name
+#: model:ir.model.fields,field_description:mapletransform.field_mapletransform_wizard_display_name
+msgid "Display Name"
+msgstr "Afficher le nom"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_maplepick_driver
+msgid "Driver"
+msgstr "Pilote"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_maplepick_driverName
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_order_pick_driver
+msgid "Drivername"
+msgstr "Nom du transporteur"
+
+#. module: mapleorder
+#: model:ir.model,name:mapleorder.model_mapleorder_barrel
+#: model:ir.model,name:mapleorder.model_mapleorder_delivery
+#: model:ir.model,name:mapleorder.model_mapleorder_maplepick
+#: model:ir.model,name:mapleorder.model_mapleorder_order
+msgid "Email Thread"
+msgstr "Discussion par courriel"
+
+#. module: mapleorder
+#: model:ir.model,name:mapleorder.model_hr_employee
+msgid "Employee"
+msgstr "Employé"
+
+#. modules: maplereception, maplerating
+#: model:ir.ui.view,arch_db:maplerating.report_barrel_view
+#: model:ir.ui.view,arch_db:maplereception.report_barrel_view
+msgid "Entrepôt"
+msgstr "Entrepôt"
+
+#. module: mapleorder
+#: sql_constraint:mapleorder.barrel:0
+msgid "Error : barrel number must be unique"
+msgstr "Erreur : le numéro de baril identifiant le baril doit être unique; il semble que vous ayiez entré un numéro déjà existant"
+
+#. module: mapleorder
+#: sql_constraint:mapleorder.barrel:0
+msgid "Error : seal must be unique"
+msgstr "Erreur : le scellé identifiant le baril doit être unique; il semble que vous ayiez entré un numéro déjà existant"
+
+#. module: mapleorder
+#: sql_constraint:mapleorder.barrel:0
+msgid "Error : temporary number must be unique"
+msgstr "Erreur : le numéro temporaire identifiant le baril doit être unique; il semble que vous ayiez entré un numéro déjà existant"
+
+#. module: mapleorder
+#: selection:mapleorder.barrel,grade:0
+#: selection:mapleorder.transform,grades:0
+msgid "FO"
+msgstr "FO"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_res_partner_fpaqNum
+msgid "FPAQ num"
+msgstr "num FPAQ"
+
+#. module: mapleorder
+#: model:ir.actions.act_window,name:mapleorder.transform2_action_window
+msgid "Fill Totes"
+msgstr "Remplir les totes"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_barrel_flavor
+msgid "Flavor"
+msgstr "Saveur"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_barrel_message_follower_ids
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_delivery_message_follower_ids
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_maplepick_message_follower_ids
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_order_message_follower_ids
+msgid "Followers"
+msgstr "Abonnés"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_barrel_message_channel_ids
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_delivery_message_channel_ids
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_maplepick_message_channel_ids
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_order_message_channel_ids
+msgid "Followers (Channels)"
+msgstr "Abonnés (Canaux)"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_barrel_message_partner_ids
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_delivery_message_partner_ids
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_maplepick_message_partner_ids
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_order_message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Abonnés (Partenaires)"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_barrel_full
+msgid "Full"
+msgstr "Plein"
+
+#. module: mapleorder
+#: selection:mapleorder.barrel,genre:0
+msgid "Galvanized"
+msgstr "Galvanisé"
+
+#. modules: mapleorder, maplerating
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_barrel_genre
+#: model:ir.ui.view,arch_db:maplerating.report_barrel_view
+msgid "Genre"
+msgstr "Genre"
+
+#. module: mapleorder
+#: model:res.groups,name:mapleorder.maple_group_session_manager
+msgid "Gestion de session"
+msgstr "Gestion de session"
+
+#. module: mapleorder
+#: model:res.groups,name:mapleorder.maple_group_manager
+msgid "Gestionnaire"
+msgstr "Gestionnaire"
+
+#. modules: mapleorder, maplerating
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_barrel_grade
+#: model:ir.ui.view,arch_db:maplerating.report_barrel_view
+msgid "Grade"
+msgstr "Grade"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_transform_grades
+msgid "Grades"
+msgstr "Grades"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_barrel_grossweight
+msgid "Grossweight"
+msgstr "Poids brut"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_transform_grossweights
+msgid "Grossweights"
+msgstr "Poids brut"
+
+#. modules: mapleorder, mapletransform
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_barrel_id
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_delivery_id
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_maplepick_id
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_order_id
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_transform_id
+#: model:ir.model.fields,field_description:mapletransform.field_mapletransform_wizard_id
+msgid "ID"
+msgstr "Identifiant"
+
+#. module: mapleorder
+#: model:ir.model.fields,help:mapleorder.field_mapleorder_barrel_message_unread
+#: model:ir.model.fields,help:mapleorder.field_mapleorder_delivery_message_unread
+#: model:ir.model.fields,help:mapleorder.field_mapleorder_maplepick_message_unread
+#: model:ir.model.fields,help:mapleorder.field_mapleorder_order_message_unread
+msgid "If checked new messages require your attention."
+msgstr "Si coché, de nouveaux messages requièrent votre attention."
+
+#. module: mapleorder
+#: model:ir.model.fields,help:mapleorder.field_mapleorder_barrel_message_needaction
+#: model:ir.model.fields,help:mapleorder.field_mapleorder_delivery_message_needaction
+#: model:ir.model.fields,help:mapleorder.field_mapleorder_maplepick_message_needaction
+#: model:ir.model.fields,help:mapleorder.field_mapleorder_order_message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "si elle est cochée, de nouveaux messages requièrent votre attention."
+
+#. module: mapleorder
+#: model:ir.ui.view,arch_db:mapleorder.delivery_form
+msgid "Included Barrels and Totes"
+msgstr "Barils et totes incluses"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_barrel_inspectOn
+msgid "Inspecton"
+msgstr "Inspecton"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_barrel_inspector
+msgid "Inspector"
+msgstr "Inspecteur"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_hr_employee_inspectNb
+msgid "Inspector No"
+msgstr "No inspecteur"
+
+#. module: mapleorder
+#: model:ir.ui.menu,name:mapleorder.menu_26
+#: model:ir.ui.menu,name:mapleorder.ratingmenu_26
+#: model:ir.ui.menu,name:mapleorder.transformmenu_26
+msgid "Inventory"
+msgstr "Inventaire"
+
+#. module: mapleorder
+#: model:ir.actions.act_window,name:mapleorder.action_barrellist_prod
+#: model:ir.actions.act_window,name:mapleorder.ratingaction_barrellist_prod
+msgid "Inventory By Producer"
+msgstr "Inventaire par producteur"
+
+#. module: mapleorder
+#: model:ir.actions.act_window,name:mapleorder.action_barrellist2
+#: model:ir.actions.act_window,name:mapleorder.ratingaction_barrellist2
+#: model:ir.actions.act_window,name:mapleorder.transformaction_barrellist2
+msgid "Inventory By Warehouse"
+msgstr "Inventaire par entrepôt"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_barrel_message_is_follower
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_delivery_message_is_follower
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_maplepick_message_is_follower
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_order_message_is_follower
+msgid "Is Follower"
+msgstr "Est un abonné"
+
+#. module: mapleorder
+#: selection:mapleorder.order,buyer:0
+msgid "L.B. Maple Treat"
+msgstr "L.B. Maple Treat"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_barrel_message_last_post
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_delivery_message_last_post
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_maplepick_message_last_post
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_order_message_last_post
+msgid "Last Message Date"
+msgstr "Date du dernier message"
+
+#. modules: mapleorder, mapletransform
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_barrel___last_update
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_delivery___last_update
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_maplepick___last_update
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_order___last_update
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_transform___last_update
+#: model:ir.model.fields,field_description:mapletransform.field_mapletransform_wizard___last_update
+msgid "Last Modified on"
+msgstr "Dernière modification le"
+
+#. modules: mapleorder, mapletransform
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_barrel_write_uid
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_delivery_write_uid
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_maplepick_write_uid
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_order_write_uid
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_transform_write_uid
+#: model:ir.model.fields,field_description:mapletransform.field_mapletransform_wizard_write_uid
+msgid "Last Updated by"
+msgstr "Dernière mise à jour par"
+
+#. modules: mapleorder, mapletransform
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_barrel_write_date
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_delivery_write_date
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_maplepick_write_date
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_order_write_date
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_transform_write_date
+#: model:ir.model.fields,field_description:mapletransform.field_mapletransform_wizard_write_date
+msgid "Last Updated on"
+msgstr "Dernière mise à jour le"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_barrel_lumiere
+msgid "Lumiere"
+msgstr "Lumiere"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_transform_lumieres
+msgid "Lumieres"
+msgstr "Lumiere"
+
+#. module: maplerating
+#: model:ir.ui.view,arch_db:maplerating.report_barrel_view
+msgid "Lumière"
+msgstr "Lumière"
+
+#. module: mapleorder
+#: model:ir.ui.menu,name:mapleorder.delivery_menu_root
+msgid "Maple Syrup Delivery"
+msgstr "Livraison de sirop d'érable"
+
+#. module: mapleorder
+#: model:ir.ui.menu,name:mapleorder.main_mapleorder_menu
+#: model:ir.ui.view,arch_db:mapleorder.report_mapleorder
+msgid "Maple Syrup Orders"
+msgstr "Commandes de sirop"
+
+#. module: maplepick
+#: model:ir.ui.menu,name:maplepick.menu_root
+msgid "Maple Syrup Picking Orders"
+msgstr "Bons de cueillette"
+
+#. module: mapleorder
+#: model:ir.ui.menu,name:mapleorder.ratingmenu_root
+msgid "Maple Syrup Rating"
+msgstr "Classification de sirop"
+
+#. module: mapleorder
+#: model:ir.ui.menu,name:mapleorder.menu_root
+msgid "Maple Syrup Reception"
+msgstr "Réception de sirop"
+
+#. module: mapleorder
+#: model:ir.ui.menu,name:mapleorder.transform_menu_root
+msgid "Maple Syrup Transform"
+msgstr "Transformation de sirop"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_barrel_message_ids
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_delivery_message_ids
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_maplepick_message_ids
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_order_message_ids
+msgid "Messages"
+msgstr "Messages"
+
+#. module: mapleorder
+#: selection:mapleorder.barrel,default:0
+msgid "NC"
+msgstr "NC"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_barrel_type
+msgid "Name"
+msgstr "Nom"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_barrel_netweight
+msgid "Netweight"
+msgstr "Poids net"
+
+#. modules: maplereception, maplerating
+#: model:ir.ui.view,arch_db:maplerating.report_barrel_view
+#: model:ir.ui.view,arch_db:maplereception.report_barrel_view
+msgid "No baril"
+msgstr "No baril"
+
+#. modules: maplereception, maplerating
+#: model:ir.ui.view,arch_db:maplerating.report_barrel_view
+#: model:ir.ui.view,arch_db:maplereception.report_barrel_view
+msgid "No temp"
+msgstr "No temp"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_maplepick_note
+msgid "Note"
+msgstr "Note"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_delivery_notes
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_order_notes
+msgid "Notes"
+msgstr "Notes"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_barrel_message_needaction_counter
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_delivery_message_needaction_counter
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_maplepick_message_needaction_counter
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_order_message_needaction_counter
+msgid "Number of Actions"
+msgstr "Nombre d'Actions"
+
+#. module: mapleorder
+#: model:ir.model.fields,help:mapleorder.field_mapleorder_barrel_message_needaction_counter
+#: model:ir.model.fields,help:mapleorder.field_mapleorder_delivery_message_needaction_counter
+#: model:ir.model.fields,help:mapleorder.field_mapleorder_maplepick_message_needaction_counter
+#: model:ir.model.fields,help:mapleorder.field_mapleorder_order_message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "Nombre de messages demandant une action"
+
+#. module: mapleorder
+#: model:ir.model.fields,help:mapleorder.field_mapleorder_barrel_message_unread_counter
+#: model:ir.model.fields,help:mapleorder.field_mapleorder_delivery_message_unread_counter
+#: model:ir.model.fields,help:mapleorder.field_mapleorder_maplepick_message_unread_counter
+#: model:ir.model.fields,help:mapleorder.field_mapleorder_order_message_unread_counter
+msgid "Number of unread messages"
+msgstr "Nombre de messages non lus"
+
+#. module: mapleorder
+#: selection:mapleorder.barrel,barrelState:0
+msgid "OK"
+msgstr "OK"
+
+#. module: mapleorder
+#: selection:mapleorder.barrel,genre:0
+msgid "One-time"
+msgstr "Usage unique"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_maplepick_order
+msgid "Order"
+msgstr "Commande"
+
+#. module: mapleorder
+#: model:ir.actions.report.xml,name:mapleorder.report_orders
+msgid "Order Report"
+msgstr "Rapport des commandes"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_maplepick_barrelQty
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_order_pick_barrelQty
+msgid "Ordered Barrel Quantity"
+msgstr "Qté de barils commandés"
+
+#. module: mapleorder
+#: model:ir.actions.act_window,name:mapleorder.mapleorder_action_order
+#: model:ir.ui.menu,name:mapleorder.mapleorder_order_menu
+msgid "Orders"
+msgstr "Commandes"
+
+#. module: maplepick
+#: model:ir.actions.act_window,name:maplepick.action_window4
+#: model:ir.ui.menu,name:maplepick.menu_2_list
+msgid "Orders To Be Assigned"
+msgstr "Commandes non assignées"
+
+#. module: maplepick
+#: model:ir.actions.act_window,name:maplepick.action_window3
+msgid "Orders by picking date"
+msgstr "Bons de cueillette détaillés par date"
+
+#. module: mapleorder
+#: selection:mapleorder.barrel,genre:0
+msgid "Other"
+msgstr "Autre"
+
+#. module: mapleorder
+#: model:ir.ui.view,arch_db:mapleorder.prodtote_form
+#: model:ir.ui.view,arch_db:mapleorder.transform_form
+msgid "Parameters"
+msgstr "Paramètres"
+
+#. module: mapleorder
+#: model:ir.model,name:mapleorder.model_res_partner
+msgid "Partner"
+msgstr "Partenaire"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_order_phone
+msgid "Phone"
+msgstr "Téléphone"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_order_pickid
+msgid "Pickid"
+msgstr "Id"
+
+#. module: maplepick
+#: model:ir.actions.act_window,name:maplepick.action_window5
+#: model:ir.ui.menu,name:maplepick.menu_4_list
+#: model:ir.ui.view,arch_db:maplepick.view_pickcalendar1
+msgid "Picking Calendar"
+msgstr "Calendrier de cueillette"
+
+#. module: maplepick
+#: model:ir.ui.view,arch_db:maplepick.view_pickform
+msgid "Picking Order"
+msgstr "Bon de cueillette"
+
+#. modules: mapleorder, maplepick
+#: model:ir.ui.view,arch_db:mapleorder.report_maplepick
+#: model:ir.actions.act_window,name:maplepick.action_pickwindow
+#: model:ir.ui.menu,name:maplepick.menu_1
+#: model:ir.ui.menu,name:maplepick.menu_1_list
+msgid "Picking Orders"
+msgstr "Bons de cueillette"
+
+#. module: maplepick
+#: model:ir.ui.menu,name:maplepick.menu_3_list
+msgid "Picking Orders Listing"
+msgstr "Bons de cueillette détaillés par date"
+
+#. module: maplepick
+#: model:ir.actions.act_window,name:maplepick.action_window6
+#: model:ir.ui.menu,name:maplepick.menu9
+msgid "Picking Report"
+msgstr "Rapport Cueillette"
+
+#. module: mapleorder
+#: selection:mapleorder.barrel,genre:0
+msgid "Plastic"
+msgstr "Plastique"
+
+#. modules: maplereception, maplerating
+#: model:ir.ui.view,arch_db:maplerating.report_barrel_view
+#: model:ir.ui.view,arch_db:maplereception.report_barrel_view
+msgid "Plein"
+msgstr "Plein"
+
+#. module: maplerating
+#: model:ir.ui.view,arch_db:maplerating.report_barrel_view
+msgid "Poids brut"
+msgstr "Poids brut"
+
+#. module: maplerating
+#: model:ir.ui.view,arch_db:maplerating.report_barrel_view
+msgid "Poids net"
+msgstr "Poids net"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_barrel_processStatus
+msgid "Processstatus"
+msgstr "Traitement"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_maplepick_prods
+msgid "Prods"
+msgstr "Producteurs"
+
+#. module: mapleorder
+#: model:ir.ui.view,arch_db:mapleorder.prodtote_form
+msgid "Produced Totes"
+msgstr "Totes produites"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_order_productor
+msgid "Producer"
+msgstr "Producteur"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_barrel_producerAddr
+msgid "Producer Address"
+msgstr "Adr producteur"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_barrel_producerCity
+msgid "Producer City"
+msgstr "Ville"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_barrel_nameproducer
+msgid "Producer Name"
+msgstr "Nom du producteur"
+
+#. module: mapleorder
+#: model:ir.actions.act_window,name:mapleorder.mapleorder_action_producers
+msgid "Producers"
+msgstr "Producteurs"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_barrel_article
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_order_article
+msgid "Product"
+msgstr "Article"
+
+#. modules: maplereception, maplerating
+#: model:ir.ui.view,arch_db:maplerating.report_barrel_view
+#: model:ir.ui.view,arch_db:maplereception.report_barrel_view
+msgid "Producteur"
+msgstr "Producteur"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_order_productorName
+msgid "Productorname"
+msgstr "Producteur"
+
+#. module: mapleorder
+#: model:ir.actions.act_window,name:mapleorder.mapleorder_action_product
+#: model:ir.ui.menu,name:mapleorder.mapleorder_product_menu
+msgid "Products"
+msgstr "Articles"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_barrel_propriete
+msgid "Propriete"
+msgstr "Propriete"
+
+#. modules: maplereception, maplerating
+#: model:ir.ui.view,arch_db:maplerating.report_barrel_view
+#: model:ir.ui.view,arch_db:maplereception.report_barrel_view
+msgid "Proprio"
+msgstr "Proprio"
+
+#. module: mapleorder
+#: model:ir.ui.view,arch_db:mapleorder.view_mapleorderform
+msgid "Purchase Order"
+msgstr "Commande"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_barrel_purchorder
+msgid "Purchase Orders"
+msgstr "Bons d'achat"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_order_quantity
+msgid "Quantity"
+msgstr "Quantité"
+
+#. module: mapleorder
+#: model:ir.ui.view,arch_db:mapleorder.report_order_view
+msgid "Quantité"
+msgstr "Quantité"
+
+#. modules: maplereception, maplerating
+#: model:ir.ui.view,arch_db:maplerating.report_barrel_view
+#: model:ir.ui.view,arch_db:maplereception.report_barrel_view
+msgid "Rangée"
+msgstr "Rangée"
+
+#. module: mapleorder
+#: model:ir.ui.view,arch_db:mapleorder.view_barrel_view
+msgid "Rated"
+msgstr "Classifié"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_barrel_ratedAt
+msgid "Rated At"
+msgstr "Classifié le"
+
+#. module: mapleorder
+#: model:ir.actions.act_window,name:mapleorder.ratingbarrelaction_window
+msgid "Rated Barrels"
+msgstr "Barils classifiés"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_barrel_ratedBy
+msgid "Ratedby"
+msgstr "Classifié par"
+
+#. module: mapleorder
+#: model:ir.actions.act_window,name:mapleorder.ratingaction_window
+#: model:ir.ui.menu,name:mapleorder.ratingmenu_1_list
+msgid "Rating"
+msgstr "Classement"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_barrel_dateReceived
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_maplepick_receivedAt
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_order_receivedAt
+msgid "Received At"
+msgstr "Reçu le"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_maplepick_barrelReceived
+msgid "Received Barrel Quantity"
+msgstr "Qté de barils reçus"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_maplepick_receivedBy
+msgid "Received by"
+msgstr "Reçu par"
+
+#. module: mapleorder
+#: model:ir.actions.act_window,name:mapleorder.action_reception_base
+#: model:ir.ui.menu,name:mapleorder.menu_1
+#: model:ir.ui.view,arch_db:mapleorder.report_maplereception
+msgid "Reception Orders"
+msgstr "Bons de réception"
+
+#. module: mapleorder
+#: model:ir.actions.act_window,name:mapleorder.reception_report
+#: model:ir.ui.menu,name:mapleorder.menu_27
+msgid "Reception Report"
+msgstr "Rapport de réception"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_order_region
+#: model:ir.model.fields,field_description:mapleorder.field_res_partner_region
+msgid "Region"
+msgstr "Région"
+
+#. module: mapleorder
+#: model:ir.actions.act_window,name:mapleorder.mapleorder_action_report
+#: model:ir.ui.menu,name:mapleorder.mapleorder_report_menu
+msgid "Report"
+msgstr "Rapport"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_barrel_row
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_maplepick_row
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_order_row
+msgid "Row"
+msgstr "Rangée"
+
+#. module: mapleorder
+#: model:ir.ui.view,arch_db:mapleorder.report_order_view
+msgid "Région"
+msgstr "Région"
+
+#. module: maplerating
+#: model:ir.ui.view,arch_db:maplerating.report_barrel_view
+msgid "Saveur"
+msgstr "Saveur"
+
+#. module: maplerating
+#: model:ir.ui.view,arch_db:maplerating.report_barrel_view
+msgid "Scellé"
+msgstr "Scellé"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_delivery_scheduled
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_maplepick_schedule
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_order_pick_schedule
+msgid "Scheduled"
+msgstr "Planifiée"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_barrel_seal
+msgid "Seal"
+msgstr "Scellé"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_barrel_shipped
+msgid "Shipped"
+msgstr "Expédié"
+
+#. module: mapleorder
+#: selection:mapleorder.order,buyer:0
+msgid "Sirop de l'Est"
+msgstr "Sirop de l'Est"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_barrel_site
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_order_siteNum
+#: model:ir.model.fields,field_description:mapleorder.field_res_partner_siteNum
+msgid "Site num"
+msgstr "Site num"
+
+#. module: mapleorder
+#: model:ir.ui.view,arch_db:mapleorder.transform_form
+msgid "Source Barrels"
+msgstr "Barils source"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_transform_sourceList
+msgid "Source barrels"
+msgstr "Barils source"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_barrel_sourceBarrels
+msgid "Sourcebarrels"
+msgstr "Barils source"
+
+#. module: mapleorder
+#: selection:mapleorder.barrel,genre:0
+msgid "Stainless"
+msgstr "Stainless"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_order_address
+msgid "Street"
+msgstr "Rue"
+
+#. module: mapleorder
+#: selection:mapleorder.barrel,grade:0
+#: selection:mapleorder.transform,grades:0
+msgid "TF"
+msgstr "TF"
+
+#. modules: mapleorder, maplerating
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_barrel_tare
+#: model:ir.ui.view,arch_db:maplerating.report_barrel_view
+msgid "Tare"
+msgstr "Tare"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_barrel_tempnumber
+msgid "Tempnumber"
+msgstr "No temporaire"
+
+#. module: mapleorder
+#: model:ir.ui.menu,name:mapleorder.transform_menu_2_list
+msgid "Tote Production"
+msgstr "Production de tote"
+
+#. module: mapleorder
+#: model:ir.actions.act_window,name:mapleorder.reporttoteaction_window
+#: model:ir.ui.menu,name:mapleorder.transformbarrel_2_list
+#: model:ir.ui.view,arch_db:mapleorder.reporttoteview
+msgid "Tote Report"
+msgstr "Rapport des totes"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_barrel_tote
+msgid "Tote?"
+msgstr "Tote?"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_transform_barrelList
+msgid "Totes produced"
+msgstr "Totes produites"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_barrel_transform
+msgid "Transform"
+msgstr "Transformation"
+
+#. module: mapleorder
+#: model:ir.ui.view,arch_db:mapleorder.reportview
+msgid "Transform Order Report"
+msgstr "Rapport des ordres de transformation"
+
+#. module: mapletransform
+#: model:ir.model.fields,field_description:mapletransform.field_mapletransform_wizard_transform_id
+msgid "Transform id"
+msgstr "Transform id"
+
+#. module: mapleorder
+#: model:ir.ui.view,arch_db:mapleorder.view_barrel_view
+msgid "Transformation"
+msgstr "Transformation"
+
+#. module: mapleorder
+#: model:ir.actions.act_window,name:mapleorder.reporttransformaction_window
+#: model:ir.ui.menu,name:mapleorder.transformbarrel_1_list
+msgid "Transformation Order Report"
+msgstr "Rapport des ordres de transformation"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_transform_transformedOn
+msgid "Transformed on"
+msgstr "Transformed le"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_transform_transformedBy
+msgid "Transformedby"
+msgstr "Transformé par"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_delivery_transport
+msgid "Transport"
+msgstr "Transport"
+
+#. module: mapleorder
+#: model:ir.ui.view,arch_db:mapleorder.report_order_view
+msgid "Transporteur"
+msgstr "Transporteur"
+
+#. module: mapleorder
+#: model:ir.ui.view,arch_db:mapleorder.report_order_view
+msgid "Téléphone"
+msgstr "Téléphone"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_barrel_message_unread
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_delivery_message_unread
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_maplepick_message_unread
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_order_message_unread
+msgid "Unread Messages"
+msgstr "Messages non-lus"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_barrel_message_unread_counter
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_delivery_message_unread_counter
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_maplepick_message_unread_counter
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_order_message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "Compteur de messages non lus"
+
+#. module: mapleorder
+#: model:res.groups,name:mapleorder.maple_group_user_manager
+msgid "Utilisateur"
+msgstr "Utilisateur"
+
+#. module: mapleorder
+#: selection:mapleorder.barrel,default:0
+msgid "VR"
+msgstr "VR"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_barrel_valve
+msgid "Valve"
+msgstr "Valve"
+
+#. modules: maplereception, mapleorder, maplerating
+#: model:ir.ui.view,arch_db:mapleorder.report_order_view
+#: model:ir.ui.view,arch_db:maplerating.report_barrel_view
+#: model:ir.ui.view,arch_db:maplereception.report_barrel_view
+msgid "Ville"
+msgstr "Ville"
+
+#. module: mapleorder
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_barrel_warehouse
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_maplepick_warehouse
+#: model:ir.model.fields,field_description:mapleorder.field_mapleorder_order_warehouse
+msgid "Warehouse"
+msgstr "Entrepôt"
+
+#. module: maplereception
+#: model:ir.actions.report.xml,name:maplereception.report_barrels
+msgid "Weight Barrel Report"
+msgstr "Rapport de pesée"
+
+#. module: mapleorder
+#: model:ir.ui.view,arch_db:mapleorder.view_barrel_view
+msgid "Weighted"
+msgstr "Pesé"
+
+#. module: mapleorder
+#: selection:mapleorder.barrel,barrelState:0
+msgid "bosse"
+msgstr "bosse"
+
+#. module: mapleorder
+#: selection:mapleorder.barrel,containerState:0
+msgid "broken"
+msgstr "brisé"
+
+#. module: mapleorder
+#: selection:mapleorder.barrel,processStatus:0
+msgid "empty"
+msgstr "vide"
+
+#. module: mapleorder
+#: selection:mapleorder.barrel,containerState:0
+msgid "leased"
+msgstr "prêté"
+
+#. module: mapleorder
+#: selection:mapleorder.barrel,barrelState:0
+msgid "leg.bosse"
+msgstr "leg.bosse"
+
+#. module: mapleorder
+#: model:ir.model,name:mapleorder.model_mapleorder_transform
+msgid "mapleorder.transform"
+msgstr "mapleorder.transform"
+
+#. module: mapletransform
+#: model:ir.model,name:mapletransform.model_mapletransform_wizard
+msgid "mapletransform.wizard"
+msgstr "mapletransform.wizard"
+
+#. module: mapleorder
+#: selection:mapleorder.barrel,containerState:0
+msgid "ok"
+msgstr "ok"
+
+#. module: mapleorder
+#: selection:mapleorder.barrel,processStatus:0
+msgid "produced"
+msgstr "produit"
+
+#. module: maplepick
+#: model:ir.ui.view,arch_db:maplepick.view_picklist2
+msgid "quantity"
+msgstr "quantité"
+
+#. module: mapleorder
+#: selection:mapleorder.barrel,processStatus:0
+msgid "rated"
+msgstr "classifié"
+
+#. module: mapleorder
+#: selection:mapleorder.barrel,processStatus:0
+msgid "received"
+msgstr "reçu"
+
+#. module: mapleorder
+#: selection:mapleorder.barrel,processStatus:0
+msgid "rejected"
+msgstr "rejeté"
+
+#. module: mapleorder
+#: selection:mapleorder.barrel,containerState:0
+msgid "replaced"
+msgstr "remplacé"
+
+#. module: mapleorder
+#: selection:mapleorder.barrel,processStatus:0
+msgid "revised"
+msgstr "revisé"
+
+#. module: mapleorder
+#: selection:mapleorder.barrel,processStatus:0
+msgid "transformed"
+msgstr "transformé"
+
+#. module: mapleorder
+#: selection:mapleorder.barrel,barrelState:0
+msgid "tres bosse"
+msgstr "tres bosse"
+
+#. module: mapleorder
+#: selection:mapleorder.barrel,processStatus:0
+msgid "weighted"
+msgstr "pesé"
+
+#. modules: maplereception, maplerating
+#: model:ir.ui.view,arch_db:maplerating.report_barrel_view
+#: model:ir.ui.view,arch_db:maplereception.report_barrel_view
+msgid "État"
+msgstr "État"
+

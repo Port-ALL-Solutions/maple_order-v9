@@ -1,0 +1,196 @@
+<openerp>
+  <data>
+    <!-- explicit list view definition -->
+
+    <!-- modification de la vue pour le partenaire, pour inclure FPAQ et Region  -->
+    <record id="mapleorder.view_partner" model="ir.ui.view">
+      <field name="name">Partner</field>
+      <field name="model">res.partner</field>
+      <field name="priority" eval="1"/>
+      <field name="inherit_id" ref="base.view_partner_form"/>
+      <field name="arch" type="xml">
+        <xpath expr="//field[@name='website']" position="after">
+          <field name="region" />
+          <field name="fpaqNum"/>
+          <field name="siteNum"/>
+        </xpath>
+      </field>
+    </record>
+
+
+    <record id="mapleorder.view_partner_tree" model="ir.ui.view">
+      <field name="name">Partner List</field>
+      <field name="model">res.partner</field>
+      <field name="mode">primary</field>
+      <field name="priority" eval="1"/>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="region" />
+          <field name="fpaqNum"/>
+          <field name="street" />
+          <field name="city" />
+          <field name="phone" />
+        </tree>
+      </field>
+    </record>
+    
+    
+
+    <record model="ir.ui.view" id="mapleorder.view_mapleorder">
+      <field name="name">Maple Syrup Orders</field>
+      <field name="model">mapleorder.order</field> 
+      <field name="arch" type="xml">
+        <tree create="true">
+          <field name="productor" />
+          <field name="address" readonly="1"/>
+          <field name="city" readonly="1"/>
+          <field name="phone" readonly="1" />
+          <field name="region"/>
+          <field name="article" />
+          <field name="quantity" sum="1"/>
+          <field name="buyer" />
+          <field name="customer"/>
+          <field name="closed"/>
+        </tree>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="mapleorder.report_mapleorder">
+      <field name="name">Maple Syrup Report</field>
+      <field name="model">mapleorder.order</field>
+      <field name="arch" type="xml">
+        <pivot string="Maple Syrup Orders" display_quantity="true">
+          <field name="productor" type="row"/>
+          <field name="write_date" type="col"/>
+        </pivot>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="mapleorder.view_mapleorderform">
+      <field name="name">Maple Syrup Order</field>
+      <field name="model">mapleorder.order</field>
+      <field name="priority">1</field>
+      <field name="arch" type="xml">
+        <form>
+          <sheet>
+<!--
+            <div class="oe_button_box" name="button_box">
+              <button name="toggle_active" type="object"
+                      class="oe_stat_button" icon="fa-archive">
+                <field name="active" widget="boolean_button"
+                    options='{"terminology": "archive"}'/>
+              </button>
+            </div>
+-->
+            <group string="Purchase Order">
+              <group>
+                <field name="productor" />
+                <field name="pickid" invisible="1"/>
+                <field name="address" readonly="1"  />
+                <field name="city" readonly="1" />
+                <field name="phone" readonly="1" />
+                <field name="region"/>
+                <field name="buyer" />
+                <field name="customer" />
+                <field name="article" />
+                <field name="quantity"/>
+                <field name="warehouse" />
+                <field name="row" />
+                <field name="notes"/>
+              </group>
+              <group>
+                <img class="img img-responsive" style="width:200px;height:135px;float:right" src="/mapleorder/static/src/img/header.jpg"/>
+              </group>
+            </group>
+
+
+            <div class="oe_chatter">
+              <field name="message_follower_ids" widget="mail_followers"/>
+              <field name="message_ids" widget="mail_thread"/>
+            </div>
+            
+          </sheet>
+        </form>
+      </field>
+    </record>
+
+
+
+    <record id="mapleorder_action_order" model="ir.actions.act_window">
+      <field name="name">Orders</field>
+      <field name="res_model">mapleorder.order</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <record model="ir.actions.act_window.view" id="mapleorder.action_order_1">
+      <field name="sequence" eval="1"/>
+      <field name="view_mode">tree</field>
+      <field name="act_window_id" ref="mapleorder_action_order"/>
+      <field name="view_id" ref="mapleorder.view_mapleorder"/>
+    </record>
+    <record model="ir.actions.act_window.view" id="mapleorder.action_order_2">
+      <field name="sequence" eval="2"/>
+      <field name="view_mode">form</field>
+      <field name="act_window_id" ref="mapleorder_action_order"/>
+      <field name="view_id" ref="mapleorder.view_mapleorderform"/>
+    </record>
+
+    <record id="mapleorder_action_producers" model="ir.actions.act_window">
+      <field name="name">Producers</field>
+      <field name="res_model">res.partner</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+    <record model="ir.actions.act_window.view" id="mapleorder.action_producer001">
+      <field name="sequence" eval="1"/>
+      <field name="view_mode">tree</field>
+      <field name="act_window_id" ref="mapleorder_action_producers"/>
+      <field name="view_id" ref="mapleorder.view_partner_tree"/>
+    </record>
+    <record model="ir.actions.act_window.view" id="mapleorder.action_producer002">
+      <field name="sequence" eval="2"/>
+      <field name="view_mode">form</field>
+      <field name="act_window_id" ref="mapleorder_action_producers"/>
+      <field name="view_id" ref="mapleorder.view_partner"/>
+    </record>
+    <record id="mapleorder_action_product" model="ir.actions.act_window">
+      <field name="name">Products</field>
+      <field name="res_model">product.product</field>
+      <field name="view_id" ref="product.product_template_tree_view"/>
+      <field name="view_mode">tree,form</field>    
+    </record>
+
+    <record id="mapleorder_action_report" model="ir.actions.act_window">
+      <field name="name">Report</field>
+      <field name="res_model">mapleorder.order</field>
+      <field name="view_mode">pivot</field>
+      <field name="view_id" ref="mapleorder.report_mapleorder"/>
+    </record>
+
+
+    <!-- top level menu: no parent -->
+    <menuitem id="main_mapleorder_menu" name="Maple Syrup Orders" sequence="11" />
+    <menuitem id="mapleorder_order_menu" name="Orders" parent="main_mapleorder_menu" action="mapleorder_action_order" sequence="33"/>
+    <menuitem id="mapleorder_producer_menu" name="Contacts" parent="main_mapleorder_menu"  action="mapleorder_action_producers" sequence="35" />
+    <menuitem id="mapleorder_product_menu" name="Products" parent="main_mapleorder_menu"  action="mapleorder_action_product" sequence="36" />
+    <menuitem id="mapleorder_report_menu" name="Report" parent="main_mapleorder_menu"  action="mapleorder_action_report" sequence="37" />
+
+    <!-- server action to the one above -->
+    <!--
+    <record model="ir.actions.server" id="mapleorder.action_server">
+      <field name="name">mapleorder server</field>
+      <field name="model_id" ref="model_mapleorder_mapleorder"/>
+      <field name="code">
+        action = {
+          "type": "ir.actions.act_window",
+          "view_mode": "tree,form",
+          "res_model": self._name,
+        }
+      </field>
+    </record>
+    -->
+
+    <!-- Top menu item -->
+
+  </data>
+</openerp>

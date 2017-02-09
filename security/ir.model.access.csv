@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+maple_manager,manager,model_mapleorder_order,maple_group_manager,1,1,1,1
+maple_session_manager,user,model_mapleorder_order,maple_group_session_manager,1,0,1,0
+maple_dumb_user,dumb user,model_mapleorder_order,maple_group_user_manager,1,0,0,0
